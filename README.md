@@ -18,7 +18,7 @@ docker run --name bind -d -p 53:53/udp -p 53:53 \
 version: '2'
 services:
     bind:
-        image: bind9:alpine
+        image: aknaebel/bind
         ports:
             - "53:53/udp"
         volumes:
