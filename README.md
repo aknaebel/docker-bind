@@ -3,7 +3,6 @@
 ## Description:
 
 This docker image provide a [bind](https://www.isc.org/downloads/bind/) service based on [Alpine Linux](https://hub.docker.com/_/alpine/)
-A Docker images based on alpine.
 
 ## Usage:
 ```
