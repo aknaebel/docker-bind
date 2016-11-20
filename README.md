@@ -6,7 +6,7 @@ This docker image provide a [bind](https://www.isc.org/downloads/bind/) service 
 
 ## Usage:
 ```
-docker run --name bind -d -p 53:53/udp -p 53:53 \
+docker run --name bind -d -p 53:53/udp \
 -v /bindconfig/named.conf:/etc/bind/named.conf \
 -v /bindconfig/zones:/etc/bind/zones \
 --restart=always aknaebel/bind
